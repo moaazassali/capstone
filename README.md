@@ -12,6 +12,7 @@ Fatema Alzaabi (fya210@nyu.edu)
 
 ## Code files that we added
 - droid_slam_node.py: Connecting the model with ROS by creating a node that receives image input from a specific ROS topic
+- img_receiver.py: Receive images using a socket connection rather than ROS. We didn't complete this but it might be faster than using ROS especially when dealing with Unity, where ROS might be an unnecessary overhead in this case.
 
 ## Getting Started
 1. Clone the repo
