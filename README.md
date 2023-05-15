@@ -16,6 +16,7 @@ Umer Bin Liaqat (ubl203@nyu.edu)
 - droid_slam_node.py: Connecting the model with ROS by creating a node that receives image input from a specific ROS topic
 - img_receiver.py: Receive images using a socket connection rather than ROS. We didn't complete this but it might be faster than using ROS especially when dealing with Unity, where ROS might be an unnecessary overhead in this case.
 - ImagePublisher.cs: When used in unity, this allows streaming of images from the given camera in unity to a ROS topic. Make sure to follow https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/v0.7.0/tutorials/ros_unity_integration/setup.md first to connect Unity with ROS.
+- calibration.py: Necessary to obtain the camera intrinsics required for any custom image stream the model will run on. Code adapted from https://github.com/niconielsen32/CameraCalibration. Follow https://www.youtube.com/watch?v=_-BTKiamRTg&t=253s for a quick start (the channel also has a longer video explaining the process in depth)
 
 ## Getting Started
 1. Clone the repo
