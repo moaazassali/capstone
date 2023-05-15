@@ -1,10 +1,17 @@
 # CAPSTONE REPO
-Umer Bin Liaqat (ubl@nyu.edu)
-Moaaz Assali (ma5679@nyu.edu)
-Fatema Alzaabi (@nyu.edu)
+Umer Bin Liaqat (ubl203@nyu.edu)
 
-## Note
-For more information refer to the DROID-SLAM repo and instructions https://github.com/princeton-vl/DROID-SLAM
+Moaaz Assali (ma5679@nyu.edu)
+
+Fatema Alzaabi (fya210@nyu.edu)
+
+## Some Info:
+- We use DROID-SLAM, so for more information refer to the DROID-SLAM repo and instructions https://github.com/princeton-vl/DROID-SLAM
+- We made some changes in several of the original files to get the model to work on our system without errors
+- We used Python 3.9.13
+
+## Code files that we added
+- droid_slam_node.py: Connecting the model with ROS by creating a node that receives image input from a specific ROS topic
 
 ## Getting Started
 1. Clone the repo
@@ -23,4 +30,10 @@ pip install gdown
 3. Compile the extensions (takes about 10 minutes)
 ```Bash
 python setup.py install
+```
+
+4. Run demo
+```Bash
+./tools/download_sample_data.sh
+python demo.py --imagedir=data/abandonedfactory --calib=calib/tartan.txt --stride=2
 ```
