@@ -5,7 +5,7 @@ Moaaz Assali (ma5679@nyu.edu)
 
 Fatema Alzaabi (fya210@nyu.edu)
 
-## Some Info:
+## Some Info
 - We use DROID-SLAM, so for more information refer to the DROID-SLAM repo and instructions https://github.com/princeton-vl/DROID-SLAM
 - We made some changes in several of the original files to get the model to work on our system without errors
 - We used Python 3.9.13
