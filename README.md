@@ -1,9 +1,10 @@
 # CAPSTONE REPO
-Umer Bin Liaqat (ubl203@nyu.edu)
+Fatema Alzaabi (fya210@nyu.edu)
 
 Moaaz Assali (ma5679@nyu.edu)
 
-Fatema Alzaabi (fya210@nyu.edu)
+Umer Bin Liaqat (ubl203@nyu.edu)
+
 
 ## Some Info
 - We use DROID-SLAM, so for more information refer to the DROID-SLAM repo and instructions https://github.com/princeton-vl/DROID-SLAM
