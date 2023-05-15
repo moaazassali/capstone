@@ -11,6 +11,7 @@ Umer Bin Liaqat (ubl203@nyu.edu)
 - We made some changes in several of the original files to get the model to work on our system without errors
 - We used Python 3.9.13
 - We recommend using `ffmpeg` for a lot of functionalities like resizing videos/images, changing fps, extracting images from video and many more...
+- Check the last sections of the report for tests for reducing memory footprint (report.pdf)
 
 ## Code files that we added
 - droid_slam_node.py: Connecting the model with ROS by creating a node that receives image input from a specific ROS topic
