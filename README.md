@@ -46,7 +46,7 @@ python demo.py --imagedir=data/abandonedfactory --calib=calib/tartan.txt --strid
 
 ### Running the already existing code in the A1 Cybersecutity Lab Computer
 ```Bash
-login to ma5679 user
+//login to ma5679 user
 cd ~/Desktop/DROID-SLAM
 conda activate droidenv
 python demo.py --imagedir=data/abandonedfactory --calib=calib/tartan.txt --stride=2
